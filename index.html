@@ -46,7 +46,17 @@ color:white; }
       justify-content: space-between;
       align-items: center;
       padding-top: 0;
-      padding-bottom: 0; } }
+      padding-bottom: 0; } 
+      .nayami{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .nayami-image{
+        width:50%;
+    }
+    .nayami-wp{
+        width:50%;
+    }}
 @media (min-width: 600px) {
   .nav__wrapper {
     display: flex; } 
@@ -87,7 +97,8 @@ color:white; }
     .nav__wrapper.active {
       visibility: visible;
       opacity: 1;
-      transform: translateY(0); } }
+      transform: translateY(0); }
+}
  
 .nav__item a {
     color: white;
@@ -177,7 +188,7 @@ color:white; }
     }
     .nayami img{
         width:80%;
-        height:80%;
+        height:auto;
     }
     .nayami-image{
         display: flex;
@@ -426,6 +437,7 @@ body a{
             <div class="nayami-image">
                 <img src="page2.jpg">
             </div>
+            <div class="nayami-wp">
             <div class="nayami-title">
                 <h2>その悩み全て、イーズリーモノクロカードが解決します！
                 </h2>
@@ -437,6 +449,7 @@ body a{
                     <a href="./contact.html">ご依頼はこちら</a>
                 </div>
             </div>
+        </div>
         </div>
 
 
